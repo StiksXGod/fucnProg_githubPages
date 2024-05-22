@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+
+ h2{
+    text-align: center;
+    color: #E0FFFF;
+ }
+
+#main-title{
+    padding-left: 5%;
+}
+
+#made-title{
+    text-align: center;
+    color: #008080;
+}
+
+.documentation{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.documentationwrapper {
+    line-height: 1.5;
+    margin-left: 15%; /* Автоматический отступ слева и справа делает блок по центру по горизонтали */
+    width: 70%; /* Ширина блока */ /* Выравнивание текста по центру внутри блока */
+}
+
+.table{
+    padding-left: 15%;
+    width: 70%; /* Ширина блока */
+}
+
+.codewrapper{
+    margin-left: 15%;
+    width: 70%; /* Ширина блока */
+    display: block;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3%;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre-wrap; /* сохранение пробелов и переносов строк */
+}
